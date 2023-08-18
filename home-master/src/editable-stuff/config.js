@@ -1,3 +1,5 @@
+import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -57,6 +59,54 @@ const about = {
     "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
+
+export const projects = {
+	title: "Projects",
+	cards: [
+		{
+			title: "StarBook",
+			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			icons: [
+				{
+					icon: faAppStore,
+					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+				},
+				{
+					icon: faGithub,
+					link: "https://github.com/hashirshoaeb/star_book",
+				},
+			]
+		},
+		{
+			title: "QuranTalk",
+			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			icons: [
+				{
+					icon: faAppStore,
+					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+				},
+				{
+					icon: faGooglePlay,
+					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+				},
+			]
+		},
+		{
+			title: "Portfolio",
+			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/hashirshoaeb/portfolio",
+				},
+			]
+		},
+	],
+}
+
+
+
+
 
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
@@ -148,8 +198,8 @@ const experiences = {
 }
 
 // Blog SECTION
-// const blog = {
-//   show: false,
-// };
+//const blog = {
+//  show: true,
+//};
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };

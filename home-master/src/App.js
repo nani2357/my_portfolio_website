@@ -23,6 +23,9 @@ import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 
+import StaticProjects from './components/home/StaticProjects';
+import { projects } from './editable-stuff/config.js';
+
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
@@ -55,6 +58,8 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
+      
+      <StaticProjects heading="Static Projects" projects={projects} />
       {leadership.show && (
         <Leadership
           heading={leadership.heading}
