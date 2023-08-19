@@ -238,14 +238,34 @@ const certifications = {
   heading: "Certifications",
   data: [
     {
-      course: "Deep Learning Specialization",
-      tutor: "Andrew Ng",
-      image: require('../editable-stuff/hashirshoaeb.png')
+      course: "Google Data Analytics",
+      tutor: "Google Career Certificates",
+      image: require('../editable-stuff/img.jpg')
     },
     {
-      course: "Machine Learning",
+      course: "Data Science Professional Certificate",
       tutor: "Andrew Ng",
-      image: require('../editable-stuff/hashirshoaeb.png')
+      image: require('../editable-stuff/Data_Science.png')
+    },
+    {
+      course: "TensorFlow Developer Professional Certificate",
+      tutor: "Laurence Moroney",
+      image: require('../editable-stuff/dlai.png')
+    },
+    {
+      course: "Deep Learning Specialization",
+      tutor: "Andrew Ng",
+      image: require('../editable-stuff/dlai.png')
+    },
+    {
+      course: "Salesforce Sales Operations",
+      tutor: "Salesforce",
+      image: require('../editable-stuff/sf.png')
+    },
+    {
+      course: "ISTQB",
+      tutor: "International Software Testing Qualifications Board",
+      image: require('../editable-stuff/istqb.jpg')
     },
     // ... add more certification entries
   ],

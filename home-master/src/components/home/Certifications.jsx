@@ -8,7 +8,7 @@ const Certifications = ({ certifications }) => {
         <h2 className="display-4 mb-5 text-center">
           {certifications.heading}
         </h2>
-        <Row>
+        <Row className="justify-content-center"> {/* <-- Added justify-content-center */}
           {
             certifications.data.map((cert, index) => (
               <CertificationCard key={index} data={cert} />
@@ -22,8 +22,8 @@ const Certifications = ({ certifications }) => {
 
 const CertificationCard = ({ data }) => {
   return (
-    <Col lg="3" md="4" sm="6" className="mb-4">
-      <Card className="h-100"> {/* <-- Added h-100 to ensure equal height */}
+    <Col lg="3" md="4" sm="6" className="mb-4 d-flex justify-content-center">
+      <Card className="h-100" style={{ maxWidth: '18rem' }}> {/* <-- Added maxWidth to control card width */}
         <Card.Img variant="top" src={data.image} />
         <Card.Body>
           <Card.Title>{data.course}</Card.Title>
@@ -33,6 +33,7 @@ const CertificationCard = ({ data }) => {
     </Col>
   );
 }
+
 
 export default Certifications;
 
