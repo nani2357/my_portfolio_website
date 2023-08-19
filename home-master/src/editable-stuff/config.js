@@ -245,18 +245,30 @@ export const certifications = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
+      company: 'Company Name', // <-- Added company name
+      //companylogo: require('../assets/img/dell.png'),
       date: 'June 2018 – Present',
+      description: 'Worked on XYZ project, implemented ABC features, ...', // <-- Added description
+
     },
     {
       role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
+      company: 'Company Name', // <-- Added company name
+      //companylogo: require('../assets/img/boeing.png'),
       date: 'May 2017 – May 2018',
+      description: 'Worked on XYZ project, implemented ABC features, ...',
+    },
+    {
+      role: 'Front-End Developer',
+      company: 'Company Name', // <-- Added company name
+      //companylogo: require('../assets/img/boeing.png'),
+      date: 'May 2017 – May 2018',
+      description: 'Worked on XYZ project, implemented ABC features, ...',
     },
   ]
 }
