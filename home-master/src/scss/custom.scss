@@ -3,3 +3,16 @@
 @import "./index";
 @import "./stars";
 @import "./typography";
+
+
+.transparent-card {
+    background-color: rgba(255, 255, 255, 0.1); /* This makes the card background semi-transparent */
+}
+
+.transparent-card .text-dark {
+    color: rgba(0, 0, 0, 0.5); /* This makes the text semi-transparent */
+}
+
+.transparent-card .text-primary {
+    color: rgba(0, 123, 255, 0.5); /* Adjust this value if you have a different primary color */
+}

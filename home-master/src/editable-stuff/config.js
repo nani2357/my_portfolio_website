@@ -77,6 +77,34 @@ export const projects = {
 				},
 			]
 		},
+    {
+			title: "StarBook",
+			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			icons: [
+				{
+					icon: faAppStore,
+					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+				},
+				{
+					icon: faGithub,
+					link: "https://github.com/hashirshoaeb/star_book",
+				},
+			]
+		},
+    {
+			title: "StarBook",
+			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			icons: [
+				{
+					icon: faAppStore,
+					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+				},
+				{
+					icon: faGithub,
+					link: "https://github.com/hashirshoaeb/star_book",
+				},
+			]
+		},
 		{
 			title: "QuranTalk",
 			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
@@ -123,7 +151,7 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
+  show: true,
   heading: "Leadership",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",

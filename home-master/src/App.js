@@ -50,6 +50,8 @@ const Home = React.forwardRef((props, ref) => {
           <Experience experiences={experiences}/>
         )
       }
+      <StaticProjects heading="Static Projects" projects={projects} />
+      
       {repos.show && (
         <Project
           heading={repos.heading}
@@ -59,7 +61,7 @@ const Home = React.forwardRef((props, ref) => {
         />
       )}
       
-      <StaticProjects heading="Static Projects" projects={projects} />
+      
       {leadership.show && (
         <Leadership
           heading={leadership.heading}
