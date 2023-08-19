@@ -1,10 +1,7 @@
 import React from 'react';
 import ExperienceCard from "./ExperienceCard";
 import { Jumbotron } from './migration';
-import {
-  Container,
-  Row,
-} from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 const Experience = ({ experiences }) => {
   return (
@@ -14,7 +11,7 @@ const Experience = ({ experiences }) => {
           <h2 className="display-4 mb-5 text-center">
             {experiences.heading}
           </h2>
-          <Row>
+          <Row className="justify-content-center"> {/* <-- Added justify-content-center */}
             {
               experiences.data.map((data, index) => {
                 return <ExperienceCard key={index} data={data} />
@@ -28,3 +25,4 @@ const Experience = ({ experiences }) => {
 }
 
 export default Experience;
+

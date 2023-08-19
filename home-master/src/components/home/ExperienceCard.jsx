@@ -2,8 +2,8 @@ import { Col, Card } from "react-bootstrap";
 
 const ExperienceCard = ({ data }) => {
   return (
-    <Col lg="6">
-      <Card className="mb-4"> {/* <-- Added Card component */}
+    <Col lg="6" className="mb-4"> {/* <-- Keep the original grid column class */}
+      <Card>
         <Card.Body className="text-center">
           <img className="bg-white mb-3" src={data.companylogo} alt="" />
           <h4 style={{ fontSize: '1.5rem' }}>{data.company}</h4> {/* <-- Company name with adjusted font size */}
@@ -19,3 +19,4 @@ const ExperienceCard = ({ data }) => {
 }
 
 export default ExperienceCard;
+

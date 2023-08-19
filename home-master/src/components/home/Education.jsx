@@ -8,7 +8,7 @@ const Education = ({ education }) => {
         <h2 className="display-4 mb-5 text-center">
           {education.heading}
         </h2>
-        <Row>
+        <Row className="justify-content-center"> {/* <-- Added justify-content-center */}
           {
             education.data.map((data, index) => {
               return <EducationCard key={index} data={data} />
@@ -22,7 +22,7 @@ const Education = ({ education }) => {
 
 const EducationCard = ({ data }) => {
   return (
-    <Col lg="6" className="mb-4">
+    <Col lg="6" className="mb-4"> {/* <-- Keep the original grid column class */}
       <Card className="h-100 shadow"> {/* <-- Added shadow for a different look */}
         <Card.Body className="text-center">
           <h4 className="mb-3" style={{ fontSize: '1.6rem', color: '#007BFF' }}>{data.institution}</h4> {/* <-- Institution name with a blue color */}
@@ -36,3 +36,4 @@ const EducationCard = ({ data }) => {
 }
 
 export default Education;
+

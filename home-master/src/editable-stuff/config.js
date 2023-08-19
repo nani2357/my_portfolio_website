@@ -11,28 +11,26 @@ const mainBody = {
   firstName: "Naveen",
   middleName: "",
   lastName: "Kadampally",
-  message: " Passionate about changing the world with technology. ",
+  message: " Empowering decisions with data, and shaping the future with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/nani2357",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/naveen-kumar-kadampally/",
     },
     {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      image: "fa-facebook",
+      url: "https://www.facebook.com/nani.naveen.90/",
     },
+    {
+      image: "fa-instagram",
+      url: "https://www.instagram.com/naveen.ka202/",
+    },
+    
+    
   ],
 };
 
@@ -53,12 +51,18 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/20230608_150954.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-};
+    "Hello! I'm Naveen, a dedicated Data Scientist currently pursuing my M.Sc. in Data Science from Chandigarh University. " +
+    "My academic journey is complemented by a part-time online learning mode, allowing me to balance both my professional and educational aspirations.<br><br>" +
+    "My professional experience as a Data Analyst and Data Scientist has equipped me with a profound understanding of Machine Learning, NLP, and Computer Vision. I'm adept at utilizing tools like Excel, Python, SQL, and Power BI to extract meaningful insights that influence business strategies." +
+    "My portfolio boasts a series of successful data science projects, and I also possess a keen understanding of software testing.<br><br>" +
+    "Currently, I'm contributing as a Volunteer Junior NLP Data Scientist at Soteria AI, Manchester, UK. This role not only aligns with my expertise but also resonates with my passion for community service.<br><br>" +
+    "Outside of my professional and academic endeavors, I'm an advocate for open-source contributions. I believe in the power of collective knowledge and enjoy dedicating my free time to open-source projects.",
+    
+  resume: "https://drive.google.com/file/d/1iBF6DGOxNOd5mGvbzx2e_8E--W2fvHh8/view?usp=sharing",
+  };
 
 export const projects = {
 	title: "Projects",
@@ -157,12 +161,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/20230608_150954.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/20230608_150954.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -178,22 +182,22 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Python", value: 80 },
+    { name: "SQL", value: 65 },
+    { name: "Excel", value: 75 },
+    { name: "PowerBI", value: 65 },
+    { name: "ML/DL", value: 75 },
+    { name: "NLP", value: 65 },
+    { name: "Computer Vision", value: 55 },
+    { name: "Salesforce", value: 40 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
+    { name: "Data Preprocessing", value: 90 },
+    { name: "Data Presentation", value: 90 },
+    { name: "Statistical Analysis", value: 75 },
+    { name: "Predictive Analytics", value: 85 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
+    { name: "Modeling", value: 80 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
   ],
@@ -276,26 +280,26 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      company: 'Company Name', // <-- Added company name
+      role: 'Volunteer Junior NLP Data Scientist',// Here Add Company Name
+      company: 'Soteria AI, UK', // <-- Added company name
       //companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-      description: 'Worked on XYZ project, implemented ABC features, ...', // <-- Added description
+      date: 'JUN 2023 – Present',
+      description: 'I am deeply involved in analyzing sentiment from social media content, particularly focusing on mental health topics like depression. Through advanced predictive modeling and data analysis, I aim to enhance mental health intervention strategies and promote broader awareness.', // <-- Added description
 
     },
     {
-      role: 'Front-End Developer',
-      company: 'Company Name', // <-- Added company name
+      role: 'Junior Data Analyst',
+      company: 'Unified Softech, India', // <-- Added company name
       //companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-      description: 'Worked on XYZ project, implemented ABC features, ...',
+      date: 'Dec 2020 – Sep 2022',
+      description: 'I have spearheaded data collection, cleaning, and exploratory analysis initiatives, uncovering pivotal insights to shape business strategies. My contributions span from conducting market basket and sentiment analyses to playing a crucial role in the development of an online shopping app, always emphasizing data-informed decision-making',
     },
     {
-      role: 'Front-End Developer',
-      company: 'Company Name', // <-- Added company name
+      role: 'Software Test Analyst',
+      company: 'Unified Softech, India', // <-- Added company name
       //companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-      description: 'Worked on XYZ project, implemented ABC features, ...',
+      date: 'June 2019 – Nov 2020',
+      description: 'I have been instrumental in ensuring software quality through manual, API, performance, and database testing. As a Scrum Master, I have championed Agile methodologies, overseeing daily stand-ups and sprints, while diligently tracking and resolving defects before product deployment',
     },
   ]
 }
