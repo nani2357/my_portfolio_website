@@ -11,10 +11,11 @@ const Footer = (props) => {
         <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
         <a
           rel="noopener"
-          href="https://github.com/hashirshoaeb"
+          href="https://github.com/nani2357"
           aria-label="My GitHub"
-        > <span className="badge bg-dark">
-            Hashir Shoaib
+        >
+          <span className="badge bg-dark">
+            Naveen
           </span>
         </a>{" "}
         using <i className="fab fa-react" />
@@ -24,9 +25,23 @@ const Footer = (props) => {
             version.
           </small>
         </p>
+        <p>
+          <small className="text-muted">
+            Thank you to{" "}
+            <a
+              rel="noopener"
+              href="https://github.com/hashirshoaeb"
+              aria-label="Hashir Shoaeb's GitHub"
+            >
+              Hashir Shoaeb
+            </a>{" "}
+            for this open-source template.
+          </small>
+        </p>
       </Container>
     </footer>
   );
 };
 
 export default Footer;
+

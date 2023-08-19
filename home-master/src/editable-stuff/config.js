@@ -147,9 +147,9 @@ export const projects = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  heading: "GitHub Repo",
+  gitHubUsername: "nani2357", //i.e."johnDoe12Gh"
+  reposLength: 8,
   specificRepos: [],
 };
 
@@ -208,30 +208,30 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Hello there! I'm actively seeking entry-level roles in Data Science, Machine Learning, and Data Analysis. With a passion for extracting insights from data and a keen interest in the evolving landscape of machine learning, I'm eager to bring my skills to a dynamic team.If you're aware of any exciting opportunities, have any insights to share, or even if you'd just like to chat about the fascinating world of data, I'd love to hear from you. Drop me an email anytime! ",
+  email: "naveenkadampally@gmail.com",
 };
 const education = {
   show: true,
   heading: "Education",
   data: [
     {
-      institution: "Harvard University",
-      course: "B.Sc. Computer Science",
-      duration: "2015 - 2019",
+      institution: "Chandigarh University, India",
+      course: "M.Sc. in DATA SCIENCE (Part-time – Online)",
+      duration: "2023 - 2025",
+      description: "Attained a solid foundation in commerce combined with computer . Engaged in a blend of theoretical coursework and practical projects, culminating in a holistic understanding of the intersection between commerce and technology"
+    },
+    {
+      institution: "Osmania University, India",
+      course: "B.com Commerce and Computers",
+      duration: "2016 - 2019",
       description: "Learned about various aspects of computer science and worked on several projects."
     },
     {
-      institution: "Harvard University",
-      course: "B.Sc. Computer Science",
-      duration: "2015 - 2019",
-      description: "Learned about various aspects of computer science and worked on several projects."
-    },
-    {
-      institution: "Harvard University",
-      course: "B.Sc. Computer Science",
-      duration: "2015 - 2019",
-      description: "Learned about various aspects of computer science and worked on several projects."
+      institution: "VNR VJIET, India",
+      course: "Diploma in Civil Engineering",
+      duration: "2012 - 2015",
+      description: "Delved deep into the principles and applications of civil engineering, complemented by hands-on projects and practical sessions, laying a strong foundation for future academic and professional pursuits."
     },
     // ... add more education entries
   ],
