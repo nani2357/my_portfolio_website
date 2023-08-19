@@ -8,7 +8,8 @@ import {
   leadership,
   skills,
   getInTouch,
-  experiences
+  experiences,
+  education
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -22,6 +23,7 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
+import Education from "./components/home/Education";
 
 import StaticProjects from './components/home/StaticProjects';
 import { projects } from './editable-stuff/config.js';
@@ -54,7 +56,11 @@ const Home = React.forwardRef((props, ref) => {
       }
       {/*<WorkExperience experiences={workExperience.experiences} /> */}  
       <StaticProjects heading="Static Projects" projects={projects} />
-      
+      {
+        education.show && (
+          <Education education={education}/>
+        )
+      }
       {repos.show && (
         <Project
           heading={repos.heading}
