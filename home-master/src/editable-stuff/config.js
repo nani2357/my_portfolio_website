@@ -207,6 +207,42 @@ const getInTouch = {
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "hashirshoaeb@gmail.com",
 };
+export const workExperience = {
+  title: "Work Experience",
+  experiences: [
+    {
+      role: "Software Engineer",
+      company: "Google",
+      duration: "Jan 2020 - Present",
+      description: "Working on XYZ project...",
+    },
+    // ... add more experiences
+  ],
+};
+
+export const education = {
+  title: "Education",
+  degrees: [
+    {
+      degree: "B.Sc. Computer Science",
+      institution: "Harvard University",
+      duration: "2015 - 2019",
+    },
+    // ... add more degrees
+  ],
+};
+
+export const certifications = {
+  title: "Certifications",
+  certificates: [
+    {
+      name: "AWS Certified Solutions Architect",
+      institution: "Amazon Web Services",
+      year: "2020",
+    },
+    // ... add more certificates
+  ],
+};
 
 const experiences = {
   show: false,

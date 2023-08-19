@@ -25,6 +25,8 @@ import Experience from "./components/home/Experience";
 
 import StaticProjects from './components/home/StaticProjects';
 import { projects } from './editable-stuff/config.js';
+import WorkExperience from './components/home/WorkExperience';
+import { workExperience } from './editable-stuff/config.js';
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -50,6 +52,7 @@ const Home = React.forwardRef((props, ref) => {
           <Experience experiences={experiences}/>
         )
       }
+      <WorkExperience experiences={workExperience.experiences} />
       <StaticProjects heading="Static Projects" projects={projects} />
       
       {repos.show && (
@@ -61,20 +64,19 @@ const Home = React.forwardRef((props, ref) => {
         />
       )}
       
-      
+      {skills.show && (
+        <Skills
+          heading={skills.heading}
+          hardSkills={skills.hardSkills}
+          softSkills={skills.softSkills}
+        />
+      )}
       {leadership.show && (
         <Leadership
           heading={leadership.heading}
           message={leadership.message}
           img={leadership.images}
           imageSize={leadership.imageSize}
-        />
-      )}
-      {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
         />
       )}
       
