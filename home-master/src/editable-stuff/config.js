@@ -1,4 +1,5 @@
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import {  faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 // Navigation Bar SECTION
 const navBar = {
@@ -68,69 +69,76 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Text Summarization",
+			description: "Developed an illustrative NLP model for text summarization using pre-trained models, capable of condensing extensive content into concise summaries. The adaptable framework streamlines data comprehension, allowing for easy integration of various pre-trained models to make vast textual data more accessible and manageable.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+					icon: faGlobe,
+					link: "https://textsummarizationproject-nll8zoucuphmfb4nsg2nys.streamlit.app/",
 				},
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/nani2357/text_summarization_project",
 				},
 			]
 		},
     {
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Customer Personality Analysis & Predictive Segmentation",
+			description: "Designed an illustrative Customer Personality Analysis (CPA) model based on real-world professional experiences. The project utilized sentiment analysis, clustering, and predictive modeling to segment and understand a company's varied customer base. By integrating association rules, it also provided targeted product recommendations. ",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+					icon: faGlobe,
+					link: "https://customer-personality-analysis-clustering-navee2357.streamlit.app/",
 				},
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/nani2357/Customer_Personality_Analusis-Clustering/tree/main",
 				},
 			]
 		},
     {
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Green Concrete Strength Predication",
+			description: "Designed a predictive model for Praneeth Groups to estimate the compressive strength of Green Concrete using recycled materials. This project, showcases the potential of sustainable construction materials like fly ash. The model aids in efficient decision-making, optimizing the blend of ingredients for desired strength, and promoting eco-friendly practices in the construction industry.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+					icon: faGlobe,
+					link: "https://greenconcretestrengthpredicationhybridmodel-byk4q5aacsc9tjzk78.streamlit.app/",
 				},
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/nani2357/Green_Concrete_Strength_Predication_HybridModel/tree/main",
 				},
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "Google Play Store Reviews Sentiment Analysis",
+			description: "Scraped and analyzed Google Play Store reviews. Utilized pre-trained models, achieving an accuracy benchmark of 89%. This open-source personal project is currently in the process of being transformed into a web application. The insights derived aim to enhance app functionalities and elevate user experience based on genuine customer feedback. Future plans include the integration of an API for real-time feedback analysis.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+					icon: faGlobe,
+					link: "https://github.com/nani2357/Google_play_store_reviews_Sentimentiment_analysis_with_BERT",
 				},
 				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+					icon: faGithub,
+					link: "https://github.com/nani2357/Google_play_store_reviews_Sentimentiment_analysis_with_BERT",
 				},
 			]
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "Depression Sentiment Analysis on Social Media Content",
+			description: "Conducting sentiment analysis on social media content for Soteria Mental Health to gauge perceptions of depression. Utilizing advanced techniques and pre-trained models, we're enhancing sentiment detection accuracy. This ongoing project aids in strategic mental health interventions, offering clear insights into sentiment trends.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/Soteria-Heroes/code-mental-health-studies/tree/master",
 				},
+			]
+		},
+    {
+			title: "Open Source – Integrated Growth Analysis of Telangana Sate",
+			description: "Currently collaborating on an open-source project with the Telangana State Government, focusing on growth analysis. I'm leveraging advanced time series models like ARIMA, Prophet, and LSTM to forecast revenue streams and district-specific investments. Additionally, I'm developing predictive models for e-Stamp challan issuance and vehicle preferences.I'm identifying anomalies in revenue data. Furthermore, I'm employing clustering techniques, to segment districts for strategic policymaking. ",
+			icons: [
+				
 			]
 		},
 	],
