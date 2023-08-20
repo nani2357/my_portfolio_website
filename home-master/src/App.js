@@ -10,7 +10,9 @@ import {
   getInTouch,
   experiences,
   education,
-  certifications
+  certifications,
+  blogs
+ 
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -26,6 +28,10 @@ import Leadership from "./components/home/Leadership.jsx";
 import Experience from "./components/home/Experience";
 import Education from "./components/home/Education";
 import Certifications from "./components/home/Certifications";
+import BlogsAndArticles from "./components/home/BlogsAndArticles";
+
+
+
 
 import StaticProjects from './components/home/StaticProjects';
 import { projects } from './editable-stuff/config.js';
@@ -83,6 +89,9 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
+      {
+          blogs.show && <BlogsAndArticles blogs={blogs} />
+      }
       
       
       {leadership.show && (

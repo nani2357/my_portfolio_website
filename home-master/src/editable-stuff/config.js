@@ -161,6 +161,35 @@ const repos = {
   specificRepos: [],
 };
 
+
+const blogs = {
+  show: true,
+  heading: "Blogs & Articles",
+  data: [
+    {
+      title: "Population Density Map",
+      description: "\"Journey to Creating a Population Density Map Using Rayshader in R and QGIS & Aerialod\"",
+      image: require('../editable-stuff/uk_map1.png'),
+      link: "https://uk-densitypopulation-3dmap.streamlit.app/"
+    },
+    {
+      title: "Perceptron Model",
+      description: "\"Building the Perceptron Model: A Classroom Scenario\"",
+      image: require('../editable-stuff/prec.png'),
+      link: "https://perceptronfromscratchpython-mducphm15xl.streamlit.app/"
+    },
+    {
+      title: "AI World",
+      description: "AI, Machine Learning, and Deep Learning: A Journey Into the Mind of the Machine",
+      image: require('../editable-stuff/ai_world.jpg'),
+      link: "https://medium.com/@naveenkadampally/ai-machine-learning-and-deep-learning-a-journey-into-the-mind-of-the-machine-3d95919ad9d8"
+    },
+    // ... add more blog entries
+  ],
+};
+
+
+
 // Leadership SECTION
 const leadership = {
   show: false,
@@ -227,13 +256,13 @@ const education = {
       institution: "Chandigarh University, India",
       course: "M.Sc. in DATA SCIENCE (Part-time – Online)",
       duration: "2023 - 2025",
-      description: "Attained a solid foundation in commerce combined with computer . Engaged in a blend of theoretical coursework and practical projects, culminating in a holistic understanding of the intersection between commerce and technology"
+      description: "Acquiring in-depth knowledge in data science methodologies and techniques at Chandigarh University. Engaging in hands-on projects and collaborative online sessions, all while balancing part-time studies with professional commitments."
     },
     {
       institution: "Osmania University, India",
       course: "B.com Commerce and Computers",
       duration: "2016 - 2019",
-      description: "Learned about various aspects of computer science and worked on several projects."
+      description: "Attained a solid foundation in commerce combined with computer . Engaged in a blend of theoretical coursework and practical projects, culminating in a holistic understanding of the intersection between commerce and technology"
     },
     {
       institution: "VNR VJIET, India",
@@ -317,4 +346,4 @@ const experiences = {
 //  show: true,
 //};
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences,education, certifications};
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences,education, certifications,blogs};
