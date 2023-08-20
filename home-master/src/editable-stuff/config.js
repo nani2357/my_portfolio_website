@@ -63,7 +63,7 @@ const about = {
     "Currently, I'm contributing as a Volunteer Junior NLP Data Scientist at Soteria AI, Manchester, UK. This role not only aligns with my expertise but also resonates with my passion for community service.<br><br>" +
     "Outside of my professional and academic endeavors, I'm an advocate for open-source contributions. I believe in the power of collective knowledge and enjoy dedicating my free time to open-source projects.",
     
-  resume: "https://drive.google.com/file/d/1iBF6DGOxNOd5mGvbzx2e_8E--W2fvHh8/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1ydEDpfpjXLiGiNMgH2-cXMwauYDoJjt_/view?usp=sharing",
   };
 
 export const projects = {
