@@ -12,6 +12,7 @@ const mainBody = {
   firstName: "Naveen",
   middleName: "",
   lastName: "Kadampally",
+  mainMessage: "Data Analyst • Data Scientist • ML Developer",
   message: " Empowering decisions with data, and shaping the future with technology. ",
   icons: [
     {
