@@ -56,7 +56,7 @@ const about = {
   imageLink: require("../editable-stuff/20230608_150954.jpg"),
   imageSize: 375,
   message:
-    "Hello! I'm Naveen, a dedicated Data Scientist currently pursuing my M.Sc. in Data Science from Chandigarh University. " +
+    "Hello! I'm Naveen Kumar, a dedicated Data Scientist currently pursuing my M.Sc. in Data Science from Chandigarh University. " +
     "My academic journey is complemented by a part-time online learning mode, allowing me to balance both my professional and educational aspirations.<br><br>" +
     "My professional experience as a Data Analyst and Data Scientist has equipped me with a profound understanding of Machine Learning, NLP, and Computer Vision. I'm adept at utilizing tools like Excel, Python, SQL, and Power BI to extract meaningful insights that influence business strategies." +
     "My portfolio boasts a series of successful data science projects, and I also possess a keen understanding of software testing.<br><br>" +
