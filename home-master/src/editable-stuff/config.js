@@ -142,6 +142,16 @@ export const projects = {
 				
 			]
 		},
+    {
+			title: "Student Academic Performance Analysis",
+			description: "This project aims to understand the influence of various factors such as parents' background, test preparation, etc., on students' academic performance. Analyzing student performance is crucial as it allows educators to assess and improve teaching methods. Many factors can influence a student's performance, including the parents' educational background, test preparation, student health, and more. ",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/nani2357/ML_project_Students-Performance-in-Exams_with-Deployment/tree/main",
+				},
+			]
+		},
 	],
 }
 
